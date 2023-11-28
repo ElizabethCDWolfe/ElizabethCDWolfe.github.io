@@ -4,6 +4,11 @@ body, h1, h2, p, ul, li {
   padding: 0;
 }
 
+/* Hide tab content by default */
+.tabcontent {
+  display: none;
+}
+
 /* Header styles */
 header {
   background-color: #333;
