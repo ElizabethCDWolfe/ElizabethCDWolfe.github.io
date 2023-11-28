@@ -9,6 +9,11 @@ body, h1, h2, p, ul, li {
   display: none;
 }
 
+/* Display Home tab content by default */
+#home {
+  display: block;
+}
+
 /* Header styles */
 header {
   background-color: azure;
