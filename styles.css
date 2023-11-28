@@ -10,6 +10,15 @@ body, h1, h2, p, ul, li {
   text-align: center;
 }
 
+/* Specific styling for the 'About' tab */
+.about-tab {
+  max-width: 60%; /* Set a smaller width for the content box */
+  margin: 10px auto; /* Center the content box */
+  padding: 10px; /* Add padding */
+  text-align: left; /* Align text to the left */
+  border: 1px solid #ccc; /* Add a border */
+}
+
 /* Display Home tab content by default */
 #home {
   display: block;
