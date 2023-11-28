@@ -51,15 +51,13 @@
   </footer>
 
   <script>
-
-function openTab(tabName) {
-  var i, tabcontent;
-  tabcontent = document.querySelectorAll(".tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    if (tabcontent[i].id.toLowerCase() === tabName.toLowerCase()) {
-      tabcontent[i].style.display = "block";
-    } else {
-      tabcontent[i].style.display = "none";
+    function openTab(tabName) {
+      var i, tabcontent;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
     }
   </script>
 </body>
