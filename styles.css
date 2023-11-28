@@ -12,7 +12,6 @@ body, h1, h2, p, ul, li {
 
 /* Specific styling for chosen tab */
 .special-tab {
-  display: none;
   max-width: 60%; /* Set a smaller width for the content box */
   margin: 10px auto; /* Center the content box */
   padding: 10px; /* Add padding */
@@ -25,6 +24,11 @@ body, h1, h2, p, ul, li {
 
 .special-tab p {
   text-align: left; /* Left-align the paragraph content */
+}
+
+/* Hide the special-tab content when it's not active */
+.tabcontent:not(.special-tab) {
+  display: none;
 }
 
 /* Display Home tab content by default */
