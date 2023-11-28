@@ -12,6 +12,7 @@ body, h1, h2, p, ul, li {
 
 /* Specific styling for the 'Research' tab */
 #research.special-tab {
+  display: block; /* Show the 'About' tab by default */
   max-width: 60%; /* Set a smaller width for the content box */
   margin: 10px auto; /* Center the content box */
   padding: 10px; /* Add padding */
