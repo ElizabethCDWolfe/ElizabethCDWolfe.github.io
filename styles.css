@@ -1,0 +1,19 @@
+/* Example styles in styles.css */
+
+/* Targeting an HTML element by its tag name */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Targeting elements by their class */
+h1 {
+  font-size: 2em;
+}
+
+/* Targeting elements by their ID */
+#main-content {
+  width: 80%;
+  margin: 0 auto;
+}
