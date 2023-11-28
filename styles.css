@@ -1,38 +1,22 @@
-/* Reset some default styles */
-body, h1, h2, p, ul, li {
-  margin: 0;
-  padding: 0;
+/* Default styles */
+.tabcontent {
+  display: none;
 }
 
-body {
-  font-family: Times New Roman;
-  line-height: 1.6;
-  background-color: azure;
-  color: #333;
+/* Displaying active tab content */
+.tabcontent.active {
+  display: block;
 }
 
-.centered-text {
-  text-align: center;
+/* Tab button styles */
+.tablink {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #333;
-  color: #fff;
+/* Highlighting active tab */
+.tablink.active {
+  background-color: #ccc;
 }
