@@ -10,32 +10,32 @@
     <h1>Welcome to Our Website</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#home" onclick="openTab('home')">Home</a></li>
+        <li><a href="#about" onclick="openTab('about')">About</a></li>
+        <li><a href="#services" onclick="openTab('services')">Services</a></li>
+        <li><a href="#contact" onclick="openTab('contact')">Contact</a></li>
       </ul>
     </nav>
   </header>
   
   <main>
     <!-- Content of the main menu page -->
-    <section id="home">
+    <section id="home" class="tabcontent">
       <h2>Home</h2>
       <p>Welcome to our website! This is the home section.</p>
     </section>
     
-    <section id="about">
+    <section id="about" class="tabcontent">
       <h2>About</h2>
       <p>Learn about our company and what we do.</p>
     </section>
     
-    <section id="services">
+    <section id="services" class="tabcontent">
       <h2>Services</h2>
       <p>Explore the services we offer.</p>
     </section>
     
-    <section id="contact">
+    <section id="contact" class="tabcontent">
       <h2>Contact</h2>
       <p>Contact us for more information.</p>
     </section>
@@ -44,5 +44,16 @@
   <footer>
     <p>&copy; 2023 Our Website</p>
   </footer>
+
+  <script>
+    function openTab(tabName) {
+      var i, tabcontent;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      document.getElementById(tabName).style.display = "block";
+    }
+  </script>
 </body>
 </html>
