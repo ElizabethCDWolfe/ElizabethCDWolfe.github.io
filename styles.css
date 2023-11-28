@@ -15,15 +15,6 @@ body, h1, h2, p, ul, li {
   border: 1px solid #ccc; /* Example border for content separation */
 }
 
-/* Center and style the content box in each tab */
-.tabcontent {
-  text-align: left; /* Align text within each tab to the left */
-  max-width: 600px; /* Set a maximum width for the content box */
-  margin: 20px auto; /* Center the content box horizontally */
-  padding: 20px; /* Add some padding inside the content box */
-  border: 1px solid #ccc; /* Example border for content separation */
-}
-
 /* Display Home tab content by default */
 #home {
   display: block;
