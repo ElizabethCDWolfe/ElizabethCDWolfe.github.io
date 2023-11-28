@@ -51,6 +51,18 @@ main {
   text-align: center; /* Center content within main area */
 }
 
+/* For smaller screens, adjust styles */
+@media screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  /* Modify layout, font sizes, padding, etc. */
+  /* For example: */
+  .tabcontent {
+    max-width: 90%; /* Adjust width for smaller screens */
+    margin: 10px auto; /* Change margins for centering */
+    padding: 10px; /* Decrease padding for smaller screens */
+  }
+}
+
 section {
   margin-bottom: 40px;
   display: inline-block; /* Maintain inline block for centered content */
