@@ -11,6 +11,10 @@ body {
   color: #333;
 }
 
+.centered-text {
+  text-align: center;
+}
+
 header {
   background-color: #333;
   color: #fff;
