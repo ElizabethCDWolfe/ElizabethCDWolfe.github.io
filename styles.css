@@ -11,7 +11,7 @@ body, h1, h2, p, ul, li {
 }
 
 /* Specific styling for the 'About' tab */
-.about-tab {
+.special-tab {
   max-width: 60%; /* Set a smaller width for the content box */
   margin: 10px auto; /* Center the content box */
   padding: 10px; /* Add padding */
