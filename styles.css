@@ -10,12 +10,6 @@ body, h1, h2, p, ul, li {
   text-align: center;
 }
 
-/* Align only the body text to the left with an offset */
-.tabcontent p {
-  text-align: left;
-  text-indent: -5px; /* Adjust the offset as needed */
-}
-
 /* Display Home tab content by default */
 #home {
   display: block; 
