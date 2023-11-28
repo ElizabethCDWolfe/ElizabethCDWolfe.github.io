@@ -7,7 +7,6 @@ body, h1, h2, p, ul, li {
 /* Hide tab content by default */
 .tabcontent {
   display: none;
-  /* text-align: center; Center text within tabs */
   text-align: left; /* Align text within each tab to the left */
   max-width: 600px; /* Set a maximum width for the content box */
   margin: 20px auto; /* Center the content box horizontally */
