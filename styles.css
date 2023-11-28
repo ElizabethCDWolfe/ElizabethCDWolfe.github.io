@@ -10,24 +10,24 @@ body, h1, h2, p, ul, li {
   text-align: center;
 }
 
-/* Specific styling for chosen tab */
-.special-tab {
+/* Specific styling for the 'Research' tab */
+#research.special-tab {
   max-width: 60%; /* Set a smaller width for the content box */
   margin: 10px auto; /* Center the content box */
   padding: 10px; /* Add padding */
   border: 1px solid #ccc; /* Add a border */
 }
 
-.special-tab h2 {
+#research.special-tab h2 {
   text-align: center; /* Center the heading */
 }
 
-.special-tab p {
+#research.special-tab p {
   text-align: left; /* Left-align the paragraph content */
 }
 
-/* Hide the special-tab content when it's not active */
-.tabcontent:not(.special-tab) {
+/* Hide other tab contents when they're not active */
+.tabcontent:not(#research.special-tab) {
   display: none;
 }
 
