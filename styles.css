@@ -33,7 +33,7 @@ body, h1, h2, p, ul, li {
 
 /* Display Home tab content by default */
 #home {
-  display: block;
+  display: block !important; 
 }
 
 /* Header styles */
