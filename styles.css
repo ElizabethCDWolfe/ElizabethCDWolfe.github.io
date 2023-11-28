@@ -10,13 +10,20 @@ body, h1, h2, p, ul, li {
   text-align: center;
 }
 
-/* Specific styling for the 'About' tab */
+/* Specific styling for chosen tab */
 .special-tab {
   max-width: 60%; /* Set a smaller width for the content box */
   margin: 10px auto; /* Center the content box */
   padding: 10px; /* Add padding */
-  text-align: left; /* Align text to the left */
   border: 1px solid #ccc; /* Add a border */
+}
+
+.special-tab h2 {
+  text-align: center; /* Center the heading */
+}
+
+.special-tab p {
+  text-align: left; /* Left-align the paragraph content */
 }
 
 /* Display Home tab content by default */
