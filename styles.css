@@ -4,18 +4,18 @@ body, h1, h2, p, ul, li {
   padding: 0;
 }
 
-/* Hide tab content by default */
+/* hide tab content by default */
 .tabcontent {
   display: none;
   text-align: center;
 }
 
-/* Display Home tab content by default */
+/* display home tab content by default */
 #home {
   display: block; 
 }
 
-/* Header styles */
+/* header styles */
 header {
   background-color: #333;
   color: #fff;
@@ -45,17 +45,14 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Main content styles */
+/* Main menu styles */
 main {
   padding: 20px;
-  text-align: center; /* Center content within main area */
+  text-align: center; 
 }
 
-/* For smaller screens, adjust styles */
 @media screen and (max-width: 768px) {
   /* Adjustments for smaller screens */
-  /* Modify layout, font sizes, padding, etc. */
-  /* For example: */
   .tabcontent {
     max-width: 90%; /* Adjust width for smaller screens */
     margin: 10px auto; /* Change margins for centering */
@@ -65,10 +62,10 @@ main {
 
 section {
   margin-bottom: 40px;
-  display: inline-block; /* Maintain inline block for centered content */
-  text-align: left; /* Align text within the section to the left */
+  display: inline-block;
+  text-align: left; 
   padding: 20px;
-  border: 1px solid #ccc; /* Example border for content separation */
+  border: 1px solid #ccc;
 }
 
 footer {
